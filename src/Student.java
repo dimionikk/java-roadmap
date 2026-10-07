@@ -1,17 +1,17 @@
 public class Student {
-    private String name;
+    private String fullName;
     private int age;
 
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
+                "name='" + fullName + '\'' +
                 ", age=" + age +
                 '}';
     }
 
-    public String getName() {
-        return name;
+    public String getFullName() {
+        return fullName;
     }
 
     public int getAge() {
@@ -19,7 +19,7 @@ public class Student {
     }
 
     public Student(String name, int age) {
-        this.name = name;
+        this.fullName = name;
         this.age = age;
     }
 }
