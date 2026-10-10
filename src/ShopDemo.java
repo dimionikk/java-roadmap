@@ -6,13 +6,10 @@ public class ShopDemo {
         System.out.println(item2.getQuantity());
         item2.addStock(5);
         System.out.println(item2.getQuantity());
-
         System.out.println(item2.sell(10));
         System.out.println(item2.getQuantity());
-
         System.out.println(item1.sell(1));
         System.out.println(item1.getQuantity());
-
         System.out.println(Product.getCreated());
 
     }
